@@ -12,11 +12,24 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
 }
 
 .polaroid > img {
   display: block;
   width: 100%;
+}
+
+.polaroid:nth-child(1){
+  transform: translate(15em, 10em) rotate(-15deg);
+}
+
+.polaroid:nth-child(2){
+  transform: translate(20em, 2em) rotate(5deg);
+}
+
+.polaroid:nth-child(3){
+  transform: translate(30em) rotate(15deg);
 }
 
 .polaroid > figcaption {
